@@ -12,7 +12,7 @@
 
             @csrf
 
-            <div class="form-group col-2 p-0">
+            <div class="form-group col-3 p-0">
                 <label for="products_id" class="form-control-label">Nama Produk</label>
                 <select name="products_id" class="form-control @error('products_id') is invalid @enderror">
                     @foreach ($products as $product)
